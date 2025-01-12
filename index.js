@@ -50,7 +50,7 @@ app.put("/cafes/:id", (req, res) => {
     }
 });
 
- .
+
 
 app.use("*", (req, res) => {
     res.status(404).send({ message: "La ruta que intenta consultar no existe" })
